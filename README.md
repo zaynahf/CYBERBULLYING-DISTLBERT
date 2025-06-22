@@ -13,8 +13,8 @@ https://github.com/zaynahf/cyberbullying-detector
 This implementation supports the findings presented in my research paper titled:
 
 “Cyberbullying Detection Using Text Analysis” 
-By Zaynah Farid
-Amity University Lucknow Campus
+By Zaynah Farid,
+Amity University Lucknow Campus.
 The paper evaluates performance across models, discusses limitations in detecting subtle bias, and explores future directions such as the inclusion of sentiment features using NRCLex and domain-adaptive training.
 
 
@@ -41,6 +41,18 @@ Architecture: DistilBERT base + classification head
 
 Framework: PyTorch + Hugging Face transformers
 
+---
+
+🔁 Model Versions
+
+This repository includes two iterations of the DistilBERT model:
+
+Initial Version: Trained on the raw dataset without optimization, achieving an accuracy of 49.6%. This version served as a performance baseline.
+
+Improved Version: After balancing the dataset, refining preprocessing, and adjusting hyperparameters, the final model achieved an accuracy of 73.7% and a macro F1-score of 0.738.
+
+
+Both versions are documented in the attached screenshots within the Word file.
 
 
 ---
