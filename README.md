@@ -3,7 +3,7 @@ DistilBERT-Based Cyberbullying Detection
 This repository contains the implementation of a DistilBERT-based text classification model for detecting cyberbullying across categories such as toxicity, sexism, racism, and general abuse. The project is a part of an academic research study aimed at exploring the effectiveness of transformer-based models in comparison to traditional machine learning techniques.
 
 This model is an improved version of the baseline TF-IDF + Logistic Regression model, which can be found here:
-
+https://github.com/zaynahf/cyberbullying-detector
 
 
 ---
